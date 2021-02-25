@@ -31,7 +31,7 @@ else:
 
 captcha_box = driver.find_element_by_id("valuepkg3")
 captcha_box.send_keys(captcha)
-print(captcha)
+
 loginbtn = driver.find_element_by_id("loginbtn")
 loginbtn.click()
 
