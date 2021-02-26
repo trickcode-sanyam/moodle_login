@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-PATH = "S:/DevClub/Web Scraping/chromedriver.exe"
+PATH = "./chromedriver.exe"
 driver = webdriver.Chrome(PATH)
 driver.get("https://moodle.iitd.ac.in/login/index.php")
 
